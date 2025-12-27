@@ -50,7 +50,7 @@ export const Section2 = () => {
                             className="text-xl font-bold"
                             id="contact"
                         >Contact</h3>
-                        <Link className="text-xl hover:text-blue-600" href="mailto:test@nomail.com">test@email.com</Link>
+                        <Link className="text-xl hover:text-blue-600" href="mailto:spmario333@gmail.com">spmario333@gmail.com</Link>
                         <p>+53-55608001</p>
 
                     </div>
@@ -64,19 +64,19 @@ export const Section2 = () => {
                     <div className="px-20">
                         <h4 className="text-xl font-bold">Experience</h4>
                         <br />
-                        <p className="text-6xl">+2</p>
+                        <p className="text-6xl">+1</p>
 
                     </div>
                     <div className="px-20">
                         <h4 className="text-xl font-bold">Projects</h4>
                         <br />
-                        <p className="text-6xl">+25</p>
+                        <p className="text-6xl">+4</p>
 
                     </div>
                     <div className="px-20">
                         <h4 className="text-xl font-bold">Clients</h4>
                         <br />
-                        <p className="text-6xl">+14</p>
+                        <p className="text-6xl">+3</p>
 
                     </div>
                 </div>

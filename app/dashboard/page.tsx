@@ -54,7 +54,7 @@ export default function MainPage() {
             </section>
             <footer className="absolute w-full h-36 bottom-0 p-8 px-16 bg-transparent text-gray-50">
                 <p className="text-2xl">Thank you for checking out my portfolio</p>
-                <Link className="text-lg hover:text-indigo-600 " href="mailto:mail@you.com">mail@you.com</Link>
+                <Link className="text-lg hover:text-indigo-600 " href="mailto:spmario333@gmail.com">spmario333@gmail.com</Link>
             </footer>
             <div className="h-80">
             </div>
