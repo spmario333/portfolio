@@ -13,7 +13,7 @@ export const Section2 = () => {
 
   return (
                 <section
-                className={`flex items-center justify-between px-8 mt-20 mb-20 tracking-wider transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+                className={`flex items-center justify-between px-8 mt-20 mb-20 tracking-wider transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-9"}`}
                 ref={ref}
                 
                 
