@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Roboto, Poppins } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "@/components";
 
 
 
@@ -41,7 +42,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${roboto.className} antialiased`}
-      >
+        >
+        <Navbar/>
         {children}
       </body>
     </html>

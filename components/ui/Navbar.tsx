@@ -8,9 +8,9 @@ export const Navbar: React.FC = () => {
 
 
   return (
-    <nav className=" shadow shadow-gray-600 w-full h-30 px-8 md:px-auto pt-4">
+    <nav className="flex shadow shadow-gray-600 w-full h-30 px-8 md:px-auto pt-4">
     
-      <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap pt-8">
+      <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap md:pt-8">
         <div className=" md:order-1">
           <Image
             src="/logo.png"
@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
             className="h-25 w-25"
           />
         </div>
-        <div className="text-gray-300 order-3 w-full md:w-auto md:order-2">
+        <div className="hidden md:block text-gray-300 order-3 w-full md:w-auto md:order-2">
           <ul className="flex font-semibold justify-between ">
             
             <li className="md:px-4 md:py-2 text-3xl hover:text-indigo-600 hover:text-4xl">

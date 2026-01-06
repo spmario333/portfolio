@@ -39,16 +39,16 @@ export const Section2 = () => {
                     <div className="px-10 md:px-20">
                         <h3 className="text-xl font-bold">Summary</h3>
                         <br />
-                        <p className="w-full md:w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eaque delectus
-                            consequuntur harum doloremque assumenda omnis quibusdam quia neque, adipisci iste laborum sed
-                            nostrum.</p>
+                        <p className="w-full md:w-2/3"
+                        id="contact"
+                        >I am junior web developer In my first steps of my professional career, with an initial focus on frontend development using React.js. I'm very interested in continuing to gain experience building user interfaces and reusable components, working with hooks, state management and component structure.</p>
 
                     </div>
                     <div className="px-10 md:px-20">
                         <br />
                         <h3
                             className="text-xl font-bold"
-                            id="contact"
+                            
                         >Contact</h3>
                         <Link className="text-xl hover:text-blue-600" href="mailto:spmario333@gmail.com">spmario333@gmail.com</Link>
                         <p>+53-55608001</p>

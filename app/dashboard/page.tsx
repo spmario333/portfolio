@@ -16,11 +16,11 @@ export default function MainPage() {
     return (
 
         <div className="relative text-gray-300 bg-[url('/v1016-b-09.jpg')] font-roboto">
-            <header>
+            {/* <header>
 
                 <Navbar />
 
-            </header>
+            </header> */}
 
             <Section1 />
 
@@ -29,7 +29,9 @@ export default function MainPage() {
 
             <Section2 />
 
-            <hr className="border-gray-400 mx-44" />
+            <hr className="border-gray-400 mx-44" 
+            id="experience"
+            />
 
             <Section3 />
 

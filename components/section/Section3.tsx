@@ -18,7 +18,7 @@ export const Section3 = () => {
             className={`px-20 mt-10 transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-9"}`}
             ref={ref}
         >
-            <h4 className="mb-8 text-3xl font-bold text-center md:text-left" id="experience">Experience</h4>
+            <h4 className="mb-8 text-3xl font-bold text-center md:text-left" >Experience</h4>
             <div className="grid grid-cols-1 md:grid-cols-6 my-10">
                 <div className="flex flex-col col-span-2 mb-4 md:mb-0">
                     <h5 className="text-xl md:text-2xl font-bold">Full Stack Developer</h5>
