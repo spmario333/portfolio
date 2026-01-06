@@ -6,9 +6,9 @@ import { Navbar } from "@/components";
 
 
 const inter = Inter({ subsets: ['latin'] })
-const roboto = Roboto({ 
+const roboto = Roboto({
   weight: ['400', '700'],
-  subsets: ['latin'] 
+  subsets: ['latin']
 })
 const poppins = Poppins({
   weight: ['400', '500', '700'],
@@ -41,10 +41,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} antialiased`}
-        >
-        <Navbar/>
-        {children}
+        className={`${roboto.className} antialiased `}
+      >
+        <div className="bg-[url('/v1016-b-09.jpg')]">
+
+          <Navbar />
+
+          {children}
+        </div>
+
+
       </body>
     </html>
   );

@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useRef } from 'react'
-import { useInView } from '../hooks/effect'
+import { useInView } from '../../hooks/effect'
 import Typed from 'typed.js'
 
 export const Section1 = () => {

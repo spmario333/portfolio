@@ -15,12 +15,8 @@ export default function MainPage() {
 
     return (
 
-        <div className="relative text-gray-300 bg-[url('/v1016-b-09.jpg')] font-roboto">
-            {/* <header>
-
-                <Navbar />
-
-            </header> */}
+        <div className="relative text-gray-300  font-roboto">
+            
 
             <Section1 />
 

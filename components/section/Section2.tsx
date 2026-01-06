@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { useInView } from '../hooks/effect'
+import { useInView } from '../../hooks/effect'
 
 export const Section2 = () => {
 
