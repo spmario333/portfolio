@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components";
+import { ThemeProvider } from "next-themes";
 
 
 
@@ -31,6 +32,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mario Portfolio",
   description: "Mario Info Web Developer",
+  icons:{
+    icon: "/logo.png"
+  }
 };
 
 export default function RootLayout({
@@ -39,16 +43,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${roboto.className} antialiased `}
+        className={` ${roboto.className} antialiased `}
       >
-        <div className="bg-[url('/v1016-b-09.jpg')]">
 
-          <Navbar />
+        <div className="bg-[--background]">
+        <ThemeProvider 
+        attribute="class"
+        defaultTheme="system" 
+        enableSystem
+        >
 
-          {children}
-        </div>
+
+            <Navbar />
+
+            {children}
+        </ThemeProvider>
+       </div>
 
 
       </body>
