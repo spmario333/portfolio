@@ -45,10 +45,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={` ${roboto.className} antialiased `}
+        className={` ${roboto.className} antialiased transition-colors duration-500 ease-in-out`}
       >
 
-        <div className="bg-[--background]">
         <ThemeProvider 
         attribute="class"
         defaultTheme="system" 
@@ -60,7 +59,6 @@ export default function RootLayout({
 
             {children}
         </ThemeProvider>
-       </div>
 
 
       </body>
