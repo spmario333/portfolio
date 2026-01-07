@@ -2,6 +2,7 @@
 
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { HalfMoon, SunLight } from "iconoir-react";
 
 export const Theme = () => {
   
@@ -16,9 +17,10 @@ export const Theme = () => {
   }
   
   return (
-    <div>
-        <button onClick={()=> setTheme(theme==='dark' ? 'light' : 'dark') }>
-            {theme==='dark'?'Dark':'Light'}
+    <div className=" w-10 h-10 rounded-full align-center flex justify-center items-center hover:scale-110 transition-colors duration-300">
+        <button className=" cursor-pointer" onClick={()=> setTheme(theme==='dark' ? 'light' : 'dark') }>
+            {theme==='dark'?<SunLight/>:<HalfMoon/>}
+
           </button>
     </div>
   )
