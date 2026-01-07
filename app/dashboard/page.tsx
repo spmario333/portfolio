@@ -1,4 +1,5 @@
 import { Navbar, Section1, Section2, Section3 } from "@/components";
+import { Mail } from "iconoir-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +17,7 @@ export default function MainPage() {
     return (
 
         <div className="relative text-[--color]  font-roboto">
-            
+
 
             <Section1 />
 
@@ -25,8 +26,8 @@ export default function MainPage() {
 
             <Section2 />
 
-            <hr className="border-gray-400 mx-44" 
-            id="experience"
+            <hr className="border-gray-400 mx-44"
+                id="experience"
             />
 
             <Section3 />
@@ -52,7 +53,7 @@ export default function MainPage() {
             </section>
             <footer className="absolute w-full h-36 bottom-0 p-8 px-16 bg-transparent text-[--color]">
                 <p className="text-2xl">Thank you for checking out my portfolio</p>
-                <Link className="text-lg hover:text-indigo-600 " href="mailto:spmario333@gmail.com">spmario333@gmail.com</Link>
+                <Link className="text-xl hover:text-blue-600 align-center flex justify-items-start transition-colors duration-300" href="mailto:spmario333@gmail.com"><Mail className='mr-1.5' /> spmario333@gmail.com</Link>
             </footer>
             <div className="h-80">
             </div>

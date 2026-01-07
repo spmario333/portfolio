@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { useInView } from '../../hooks/effect'
+import { Mail, Phone } from 'iconoir-react'
 
 export const Section2 = () => {
 
@@ -50,8 +51,8 @@ export const Section2 = () => {
                             className="text-xl font-bold"
                             
                         >Contact</h3>
-                        <Link className="text-xl hover:text-blue-600" href="mailto:spmario333@gmail.com">spmario333@gmail.com</Link>
-                        <p>+53-55608001</p>
+                        <Link className="text-xl hover:text-blue-600 align-center flex justify-items-start transition-colors duration-300" href="mailto:spmario333@gmail.com"><Mail className='mr-1.5'/> spmario333@gmail.com</Link>
+                        <p className='align-center flex justify-items-start transition-colors duration-300'><Phone className='mr-1.5'/>+53-55608001</p>
 
                     </div>
                 </div>
