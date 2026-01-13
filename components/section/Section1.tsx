@@ -77,15 +77,14 @@ export const Section1 = () => {
             >
                 <div className="relative ">
                     <Image
-                        className="hidden md:block object-cover max-h-[600px] lg:max-h-[700px] opacity-90 "
+                        className="portrait hidden  md:block object-cover max-h-[600px] lg:max-h-[700px] opacity-90 "
                         src="/front-1.png"
                         alt="Mario"
                         width={560}
                         height={560}
-
                     />
                     <Image
-                        className="md:hidden object-cover max-h-[400px]"
+                        className="portrait md:hidden object-cover max-h-[400px]"
                         src="/front-1.png"
                         alt="Mario"
                         width={400}
