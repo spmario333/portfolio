@@ -13,7 +13,7 @@ export const Navbar: React.FC = () => {
   
 
   return (
-    <nav className="flex w-full h-30 px-8 md:px-auto pt-4 shadow shadow-gray-800 md">
+    <nav className="flex w-150% h-30 px-8 md:px-auto pt-4 shadow-2xs shadow-gray-800 md">
 
       <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap md:pt-8">
         <div className=" md:order-1">

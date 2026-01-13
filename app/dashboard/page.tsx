@@ -37,23 +37,21 @@ export default function MainPage() {
             <section className="px-20 mt-10">
                 <h4 className="mb-8 text-3xl font-bold text-center md:text-left">Education</h4>
                 <div className="grid grid-cols-1 md:grid-cols-6 my-10">
-                    <div className="flex flex-col col-span-2 mb-4 md:mb-0">
-                        <h5 className="text-xl md:text-2xl  font-bold">B.S. Computer Science</h5>
-                        <h6 className="text-lg font-bold">Harward University</h6>
-                        <p>Jan 2015 - present</p>
+                    <div className="flex flex-col md:pr-16 col-span-2 mb-4 md:mb-0">
+                        <h5 className="text-xl md:text-2xl  font-bold">Bachelor of Science (B.S.) in Computer Science Engineering</h5>
+                        <br />
+                        <h6 className="text-lg font-bold">University of Informatics Sciences (UCI), Havana, Cuba.</h6>
+                        <br />
                     </div>
                     <div className="flex flex-col col-span-4 ">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet deleniti tempore veritatis
-                            adipisci accusantium voluptatibus vel aperiam ex alias officiis deserunt, ad, iste id cum minus sit
-                            laudantium ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi non incidunt
-                            voluptates molestiae delectus nulla quisquam aperiam voluptas tempora distinctio! Ipsa cupiditate
-                            harum voluptates praesentium. Suscipit itaque officiis odio ut!</p>
+                        <p className="text-xl">The Computer Science Engineering program trains well-rounded and highly qualified professionals whose role is linked to the development of the Informatization of Cuban society through three key areas: the development of the national software industry, the digital transformation of organizations, and the provision of the necessary support for the maintenance of information technology infrastructures.</p>
                     </div>
                 </div>
             </section>
             <footer className="absolute w-full h-36 bottom-0 p-8 px-16 bg-transparent text-[--color]">
-                <p className="text-2xl">Thank you for checking out my portfolio</p>
+                <p className="text-xl" >Thank you for checking out my portfolio</p>
                 <Link className="text-xl hover:text-blue-600 align-center flex justify-items-start transition-colors duration-300" href="mailto:spmario333@gmail.com"><Mail className='mr-1.5' /> spmario333@gmail.com</Link>
+
             </footer>
             <div className="h-80">
             </div>
